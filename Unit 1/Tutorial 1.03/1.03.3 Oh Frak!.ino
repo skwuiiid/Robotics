@@ -1,3 +1,9 @@
+// Unit 1 Digital Sandbox
+// Tutorial 1.03 Multi-Blink
+
+// Modify your Challenge 2 to give the effect of a smooth, fading, back and forth light like a Cylon scanner (or a Larson Scanner, or KITT from Knight Rider).
+// Hint: This involves having more than one LED on at a time as they “move” left or right.
+
 void setup()
 {
   pinMode(4, OUTPUT);
