@@ -1,3 +1,9 @@
+// Unit 1 Digital Sandbox
+// Tutorial 1.04 Dimming the Lights
+
+// Can you add more brightness levels to the sketch to make it ramp up more smoothly?
+// Get your copy/paste engines roaring!
+
 void setup()
 {
   pinMode(11,OUTPUT); 
@@ -5,7 +11,6 @@ void setup()
 
 void loop()
 {
-  
   // First 25% , going up by 5% because why not
   analogWrite(11, 0); 
   delay(250); 
