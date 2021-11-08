@@ -1,3 +1,8 @@
+// Unit 1 Digital Sandbox
+// Tutorial 1.05 Color Mixing
+
+// Make the RGB cycle through ROYGBIV (or any 7 distinct colors in whatever order, if u ~*~FaNcY~*~). 
+
 void setup()
 {
   pinMode(9, OUTPUT); 
