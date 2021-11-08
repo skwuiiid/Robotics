@@ -1,0 +1,17 @@
+int potentPin = 3, potentRead, currentBright;
+
+void setup() {
+pinMode(potentPin, INPUT);
+pinMode(11, OUTPUT);
+Serial.begin(9600);
+}
+
+void loop() {
+potentRead = analogRead(potentPin);
+currentBright = map(potentRead, 0, 1023, 0, 255);
+Serial.print("Current brightness is: ");
+Serial.println(currentBright);
+analogWrite(11, currentBright);
+
+delay(50);
+}
