@@ -1,3 +1,8 @@
+// Unit 1 Digital Sandbox
+// Tutorial 1.03 Multi-Blink
+
+// Add to or modify your code so that the lights turn on one by one from right to left (until they’re all on) and then turn off from left back to right (until they’re all off).
+
 void setup()
 {
   pinMode(4, OUTPUT);
@@ -19,7 +24,6 @@ void loop()
   digitalWrite(7, HIGH);  
   delay (100);
   digitalWrite(8, HIGH);     
-
 
   delay(200);
   
