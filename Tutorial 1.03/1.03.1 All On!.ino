@@ -1,3 +1,8 @@
+// Unit 1 Digital Sandbox
+// Tutorial 1.03 Multi-Blink
+
+// Try turning on more than one LED at a time OR have them all blink ON (and shield your eyes) and OFF at the same time.
+
 void setup()
 {
   pinMode(4, OUTPUT);
@@ -6,9 +11,9 @@ void setup()
   pinMode(7, OUTPUT);
   pinMode(8, OUTPUT);
   pinMode(13, OUTPUT);
-
 }
 
+void loop()
 {
   digitalWrite(4, HIGH);       
   digitalWrite(5, HIGH);    
