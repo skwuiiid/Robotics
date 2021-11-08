@@ -1,3 +1,8 @@
+// Unit 1 Digital Sandbox
+// Tutorial 1.04 Dimming the Lights
+
+// Add to or modify your code so that the brightness goes from DIM → BRIGHT → DIM & repeats.
+
 void setup()
 {
   pinMode(11,OUTPUT); 
